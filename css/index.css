@@ -1,0 +1,643 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* 主标题模块 开始 */
+
+.blank {
+    width: 100%;
+    height: 60px;
+    background-color: #f4f4f4;
+}
+
+.blank p {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 25px;
+}
+
+
+/* 主标题模块 结束 */
+
+
+/* Swiper轮播图模块 开始*/
+
+.banner {
+    height: 380px;
+    background-color: #fff;
+}
+
+.banner .swiper-banner {
+    width: 1550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 380PX;
+}
+
+
+/* Swiper轮播图模块 结束*/
+
+
+/* section-box模块 开始*/
+
+.section-box {
+    width: 100%;
+    height: 265px;
+    background-color: #fff;
+}
+
+.section-box .one {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.section-box .one div {
+    width: 280px;
+    height: 265px;
+    float: left;
+}
+
+.section-box p {
+    text-align: center;
+}
+
+.section-box img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.section-box .top {
+    color: #333;
+}
+
+.section-box .bottom {
+    color: #ccc;
+    font-size: 13px;
+    margin-top: -12px;
+}
+
+
+/* section-box模块 结束*/
+
+
+/* 手机模块 开始 */
+
+.phone .phone-banner {
+    background-color: #fff;
+}
+
+.phone .phone-banner img {
+    width: 1550px;
+    height: 395px;
+    display: block;
+    margin: 0 auto;
+}
+
+.phone .top,
+.phone .bottom {
+    width: 1230px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.phone .top .three em,
+.phone .bottom .three em {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.phone .top p,
+.phone .bottom p {
+    text-align: center;
+}
+
+.phone .top img {
+    width: 338px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+}
+
+.phone .top .left,
+.phone .top .right {
+    width: 600px;
+    height: 560px;
+    float: left;
+    margin: 15px 8px 0 0;
+    background-color: #fff;
+}
+
+.phone .top .left p,
+.phone .top .right p {
+    margin: 8px 0;
+}
+
+.phone .top .left .one,
+.phone .top .right .one {
+    font-size: 21px;
+    padding-top: 25px;
+}
+
+.phone .top .left .two,
+.phone .top .right .two {
+    font-size: 15px;
+    color: #333;
+}
+
+.phone .top .left .three,
+.phone .top .right .three,
+.phone .bottom .three {
+    font-size: 18px;
+    color: #d01700;
+    margin: 0 0 18px 0;
+}
+
+.phone .bottom div {
+    width: 296px;
+    height: 330px;
+    float: left;
+    margin: 15px 8px 0 0;
+    background-color: #fff;
+}
+
+.phone .bottom img {
+    width: 175px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.phone .bottom .one {
+    font-size: 15px;
+    margin: 15px 0 8px 0;
+}
+
+.phone .bottom .two {
+    font-size: 13px;
+    color: #999;
+    margin: 5px 0;
+}
+
+
+/* 手机模块 结束 */
+
+
+/* 声学模块 开始 */
+
+.music .music-banner {
+    background-color: #fff;
+}
+
+.music .music-banner img {
+    width: 1550px;
+    height: 395px;
+    display: block;
+    margin: 0 auto;
+}
+
+.music .top {
+    width: 1230px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.music .top div {
+    width: 300px;
+    height: 335px;
+    float: left;
+    margin: 15px 6px 0 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.music .top img {
+    width: 175px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.music .top .one {
+    font-size: 15px;
+}
+
+.music .top .two {
+    font-size: 13px;
+    color: #999;
+}
+
+.music .top .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #d11800;
+}
+
+.music .top .three s {
+    font-size: 14px;
+    color: #666;
+}
+
+.music .top .main {
+    background: url(../images/music1.jpg) no-repeat 0 0;
+    background-size: 305px 335px;
+}
+
+.music .top .main .one {
+    margin: 9px 0;
+    padding-top: 203px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.music .top .main .two {
+    margin: 8px 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+.music .top .main .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #ebce6b;
+    font-weight: bold;
+}
+
+
+/* 声学模块 结束 */
+
+
+/* 智能家居模块 开始 */
+
+.lipro .lipro-banner {
+    background-color: #fff;
+}
+
+.lipro .lipro-banner img {
+    width: 1550px;
+    height: 395px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lipro .top {
+    width: 1230px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.lipro .top div {
+    width: 300px;
+    height: 335px;
+    float: left;
+    margin: 15px 6px 0 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.lipro .top img {
+    width: 175px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.lipro .top .one {
+    font-size: 15px;
+}
+
+.lipro .top .two {
+    font-size: 13px;
+    color: #999;
+}
+
+.lipro .top .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #d11800;
+}
+
+.lipro .top .three em {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lipro .top .three s {
+    font-size: 14px;
+    color: #666;
+}
+
+.lipro .top .main {
+    background: url(../images/lipro1.jpg) no-repeat 0 0;
+    background-size: 305px 335px;
+}
+
+.lipro .top .main .one {
+    margin: 9px 0;
+    padding-top: 203px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.lipro .top .main .two {
+    margin: 8px 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+.lipro .top .main .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #ebce6b;
+    font-weight: bold;
+}
+
+.lipro .top .main .three s {
+    font-size: 13px;
+    color: #fff;
+}
+
+
+/*智能家居模块 结束 */
+
+
+/* 奇趣探索模块 开始 */
+
+.pandaer .pandaer-banner {
+    background-color: #fff;
+}
+
+.pandaer .pandaer-banner img {
+    width: 1550px;
+    height: 395px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pandaer .top {
+    width: 1230px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.pandaer .top div {
+    width: 300px;
+    height: 335px;
+    float: left;
+    margin: 15px 6px 0 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.pandaer .top img {
+    width: 175px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pandaer .top .one {
+    font-size: 15px;
+}
+
+.pandaer .top .two {
+    font-size: 13px;
+    color: #999;
+}
+
+.pandaer .top .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #d11800;
+}
+
+.pandaer .top .three em {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pandaer .top .three s {
+    font-size: 14px;
+    color: #666;
+}
+
+.pandaer .top .main {
+    background: url(../images/pandaer1.jpg) no-repeat 0 0;
+    background-size: 305px 335px;
+}
+
+.pandaer .top .main .one {
+    margin: 9px 0;
+    padding-top: 203px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.pandaer .top .main .two {
+    margin: 8px 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+.pandaer .top .main .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #ebce6b;
+    font-weight: bold;
+}
+
+.pandaer .top .main .three s {
+    font-size: 13px;
+    color: #fff;
+}
+
+
+/* 奇趣探索模块 结束 */
+
+
+/* 周边配件模块 开始 */
+
+.accessory .accessory-banner {
+    background-color: #fff;
+}
+
+.accessory .accessory-banner img {
+    width: 1550px;
+    height: 395px;
+    display: block;
+    margin: 0 auto;
+}
+
+.accessory .top {
+    width: 1230px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.accessory .top div {
+    width: 300px;
+    height: 335px;
+    float: left;
+    margin: 15px 6px 0 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.accessory .top img {
+    width: 175px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.accessory .top .one {
+    font-size: 15px;
+}
+
+.accessory .top .two {
+    font-size: 13px;
+    color: #999;
+}
+
+.accessory .top .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #d11800;
+}
+
+.accessory .top .three s {
+    font-size: 14px;
+    color: #666;
+}
+
+.accessory .top .main {
+    background: url(../images/accessory1.jpg) no-repeat 0 0;
+    background-size: 305px 335px;
+}
+
+.accessory .top .main .one {
+    margin: 9px 0;
+    padding-top: 203px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.accessory .top .main .two {
+    margin: 8px 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+.accessory .top .main .three {
+    margin: 12px 0;
+    font-size: 21px;
+    color: #f1904a;
+    font-weight: bold;
+}
+
+.accessory .top .main .three s {
+    font-size: 13px;
+    color: #fff;
+}
+
+
+/* 周边配件模块 结束 */
+
+
+/* Flyme模块 开始 */
+
+.Flyme {
+    width: 1230px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+.Flyme .top,
+.Flyme .bottom {
+    width: 1230px;
+    height: 235px;
+    float: left;
+}
+
+.Flyme .top .left {
+    width: 605px;
+    height: 235px;
+    float: left;
+    margin: 0 8px 12px 0;
+}
+
+.Flyme .top .left img {
+    width: 605px;
+    height: 235px;
+}
+
+.Flyme .top .center {
+    width: 300px;
+    height: 235px;
+    float: left;
+    margin: 0 8px 12px 0;
+    background-color: #fff;
+}
+
+.Flyme .top .right {
+    width: 300px;
+    height: 235px;
+    float: left;
+    background-color: #fff;
+}
+
+.Flyme .top .center img,
+.Flyme .top .right img {
+    width: 300px;
+    height: 180px;
+}
+
+.Flyme .top .center p,
+.Flyme .top .right p {
+    font-size: 16px;
+    text-align: center;
+    color: #515151;
+    margin: 15px 0;
+}
+
+.Flyme .bottom .one,
+.Flyme .bottom .two,
+.Flyme .bottom .three,
+.Flyme .bottom .four {
+    width: 300px;
+    height: 235px;
+    float: left;
+    margin: 15px 7px 8px 0;
+    background-color: #fff;
+}
+
+.Flyme .bottom .one img,
+.Flyme .bottom .two img,
+.Flyme .bottom .three img,
+.Flyme .bottom .four img {
+    width: 300px;
+    height: 180px;
+}
+
+.Flyme .bottom .one p,
+.Flyme .bottom .two p,
+.Flyme .bottom .three p,
+.Flyme .bottom .four p {
+    font-size: 16px;
+    text-align: center;
+    color: #515151;
+}
+
+
+/* Flyme模块 结束 */

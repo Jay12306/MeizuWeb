@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 字体图标定义 开始 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?u8zwui');
+    src: url('../fonts/icomoon.eot?u8zwui#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?u8zwui') format('truetype'), url('../fonts/icomoon.woff?u8zwui') format('woff'), url('../fonts/icomoon.svg?u8zwui#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 字体图标定义 结束 */
+
+
+/* header模块 开始 */
+
+.header {
+    width: 1230px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.header img {
+    width: 130px;
+    height: 50px;
+}
+
+
+/* header模块 结束 */
+
+
+/* 中间banner模块 开始 */
+
+.banner {
+    background-color: #f0fcfd;
+}
+
+.banner-box {
+    width: 1230px;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-box .logo-box {
+    width: 250px;
+    height: 300px;
+    float: left;
+    left: 50%;
+    margin-left: -125px;
+    padding-top: 200px;
+    position: absolute;
+}
+
+.banner-box .logo-box img {
+    width: 150px;
+}
+
+.banner-box .login-form {
+    width: 360px;
+    height: 288px;
+    float: right;
+    margin-right: 128px;
+    margin-top: 125px;
+    background-color: #fff;
+    box-shadow: 1px 15px 15px -3px #ccc;
+}
+
+.banner-box .login-form h3 {
+    color: #515151;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.banner-box .login-form .tel {
+    width: 300px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.banner-box .login-form .tel select {
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-left: 5px;
+    color: #b4b4b4;
+}
+
+.banner-box .login-form .tel span {
+    color: #b4b4b4;
+}
+
+.banner-box .login-form .tel input {
+    width: 216px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.banner-box .login-form .btn {
+    width: 300px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.banner-box .login-form .btn button {
+    width: 300px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #387aff;
+}
+
+.banner-box .login-form .btn button:hover {
+    background-color: #0949c8;
+}
+
+.banner-box .login-form .register {
+    width: 80px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    padding: 18px 0 0 8px;
+}
+
+.banner-box .login-form .register a {
+    color: #387aff;
+}
+
+.banner-box .login-form .forget-pwd {
+    width: 80px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    padding: 18px 25px 0 0;
+}
+
+.banner-box .login-form .forget-pwd a {
+    color: #387aff;
+}
+
+
+/* 中间banner模块 结束 */
+
+
+/* footer模块 开始 */
+
+.footer {
+    width: 1230px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.footer .top {
+    height: 32px;
+}
+
+.footer .top .left {
+    width: 500px;
+    float: left;
+}
+
+.footer .top .left .about,
+.footer .top .left span {
+    color: #7f7f7f;
+}
+
+.footer .top .left a {
+    color: #000;
+}
+
+.footer .top .left i {
+    font-style: normal;
+}
+
+.footer .top .center span {
+    margin-left: 18px;
+    float: left;
+}
+
+.footer .top .center .kefu {
+    width: 75px;
+    height: 25px;
+    float: left;
+    margin-left: 18px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #32a5e7;
+}
+
+.footer .top .center .kefu a {
+    color: #fff;
+}
+
+.footer .top .right {
+    width: 300px;
+    float: right;
+}
+
+.footer .top .right i {
+    width: 30px;
+    height: 25px;
+    font-family: 'icomoon';
+    float: left;
+    display: block;
+    font-style: normal;
+    color: #aeaeae;
+    padding-top: 5px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.footer .bottom {
+    height: 50px;
+}
+
+.footer .bottom p {
+    color: #7f7f7f;
+    float: left;
+    font-size: 13px;
+}
+
+.footer .bottom a {
+    height: 25px;
+    line-height: 43px;
+    float: left;
+    color: #7f7f7f;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    padding-left: 11px;
+}
+
+.footer .bottom a:hover {
+    color: black;
+}
+
+
+/* footer模块 结束 */
